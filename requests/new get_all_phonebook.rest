@@ -1,0 +1,36 @@
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+  "name": "Sample Add", 
+  "number": "39-23-6423122"
+}
+
+###
+GET http://localhost:3001/api/persons
+###
+GET http://localhost:3001/
+
+###
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+  "name": "Express Server",
+  "number": "4321"
+}
+
+###
+DELETE http://localhost:3001/api/persons/580
+
+###
+GET http://localhost:3001/api/persons
+
+###
+PUT http://localhost:3001/api/persons/855
+Content-Type: application/json
+
+{
+  "name": "Harry Potter",
+  "number": "95574"
+}
